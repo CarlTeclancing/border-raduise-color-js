@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    transition: all 1s ease;
+    margin: 10px;
+    border-radius: 12px;
+
+  }
+  input {
+    width: 200px;
+    height: 42px;
+    border: 1px solid black;
+    border-radius: 12px;
+  }

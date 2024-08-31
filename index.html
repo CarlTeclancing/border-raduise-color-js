@@ -4,47 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 100vh;
-            margin: 0;
-        }
-        div{
-            width: 200px;
-            height: 200px;
-            border: 1px solid black;
-            transition: all o.4s ease;
-            margin: 10px;
-            border-radius: 12px;
-        }
-        input{
-            width: 200px;
-            height: 42px;
-            border: 1px solid black;
-            border-radius: 12px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div></div>
-    <form action="">
+        <div></div>
         <input type="text" id="input" />
-    </form>
-    
-
-
-    <script>
-        let box = document.querySelector('div');
-        let input = document.querySelector('input');
-
-        input.addEventListener('input', function(){
-            box.style.borderRadius = input.value;
-            box.style.backgroundColor = input.value;
-        })
-    </script>
+  
+  
+      <script src="app.js"></script>
 </body>
 </html>
